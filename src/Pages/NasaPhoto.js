@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
+import LikePhoto from "./LikePhoto"
 
-const apiKey = process.env.REACT_APP_NASA_KEY;
+// if wanted to hide API key:
+//const apiKey = process.env.REACT_APP_NASA_KEY;
+
+const apiKey = 'iKliHzd4DwjCdUJlf9CipcrQTIHlYgGJAsyHwLBE';
 
 export default function NasaAPI() {
   // 
@@ -31,8 +35,13 @@ export default function NasaAPI() {
         <h1>{photoData.title}</h1>
         <p className="date">{photoData.date}</p>
         <p className="explanation">{photoData.explanation}</p>
+        <div class="heart-btn">
+          <div class="content">
+            <span class="heart">Like</span>
+            <img src="/heart.png" width="20" height="20"></img>
+          </div>
+        </div>
       </div>
-    
     </div>
     </>
   );

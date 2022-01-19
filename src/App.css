@@ -1,17 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
 
 body {
-  font-family: 'Righteous', cursive;
+font-family: 'Trispace', sans-serif;
   color: #cfc6c6;
   line-height: 1.7;
-  font-size: 19px;
+  font-size: 16px;
   background-color: #222222;
   background-image: url(/looktelescope.jpg);
   background-position: center;
 }
 
 .navbar {
-  background-color: rgba(220, 220, 220, 0.8);
+  background-color: rgba(220, 220, 220, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.likephoto {
+  background-color: rgba(220, 220, 220, 0.5);
   display: flex;
   justify-content: center;
 }
@@ -81,17 +87,40 @@ body {
 
 .home-link {
   font-size: 20px;
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,20,147,0.1);
   display: inline-block;
-  padding: 20px 40px;
+  padding: 10% 5%;
   color: #ffffff;
   border-radius: 50%;
   text-decoration: none;
   transition: 0.3s ease all;
-  text-transform: uppercase;
 }
 
 .home-link:hover {
-  border-radius: 3px;
   background: rgba(255,255,255,0.2);
+}
+
+.content{
+  align-items: center;
+  justify-content: center;  
+  border: 2px solid #ffffff;
+  padding:  5px 15px;
+  display: inline-flex;
+  border-radius: 20px;
+}
+
+.heart{
+  padding: 2px;
+}
+.content:hover {
+  border-radius: 20px;
+  background: rgba(255,20,147,0.5);
+}
+
+#date-picker{
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Trispace', sans-serif;
+  margin-left: 15px;
+
 }
