@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# MARS-API
+
+Heroku App: https://nasa-api-project-react.herokuapp.com/
+
+Smoke Test Video:
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
