@@ -1,112 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
 
 body {
-font-family: 'Trispace', sans-serif;
+  font-family: 'Trispace', sans-serif;
   color: #cfc6c6;
   line-height: 1.7;
   font-size: 16px;
   background-color: #222222;
-  background-image: url(/looktelescope.jpg);
   background-position: center;
 }
 
 .navbar {
   background-color: rgba(220, 220, 220, 0.5);
+  font-family: 'Trispace', sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding: 15px;
+  justify-content: space-between;
+
 }
 
-.likephoto {
-  background-color: rgba(220, 220, 220, 0.5);
-  display: flex;
-  justify-content: center;
+#start-title{
+  color: #422C2F;
 }
 
-.link {
-  color: #efefef;
-  display: inline-block;
-  padding: 3px 20px;
-  font-size: 16px;
-  text-decoration: none;
-  transition: 0.3s ease all;
+#date-picker{
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Trispace', sans-serif;
+  padding: 5px;
+  margin-top: 5px;
 }
 
-.link:hover {
-  color: rgb(0,0,0);
-  transform: scale(1.1);
+#date-button{
+  padding-top: 1%;
+  background-color: white;
+  color: black;
 }
 
-/* nasa photo ---------- */
-
-.nasa-photo {
-  display: flex;
-  padding: 40px;
-  margin: 0 auto;
-  max-height: 100%;
+#date-button:hover {
+  color: rgb(66,44,47);
+  transform: scale(1.2);
 }
 
-.nasa-photo img {
-  width: 50%;
-  margin-right: 50px;
-  object-fit: contain;
-  max-height: 80vh;
+#date-header{
+   color: #fff;
+   font-size: 15px;
+   padding-top: 7px;
 }
 
-.nasa-photo h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+#favourite-button{
+  padding-top: 1%;
+  background-color: white;
+  color: black;
 }
 
-.nasa-photo .date {
-  margin-top: 0;
-  margin-bottom: 30px;
+#favourite-button:hover{
+  color: rgb(66,44,47);
+  transform: scale(1.2);
 }
 
-.nasa-photo .explanation {
-  color: #bbbbbb;
-}
-
-@media (max-width: 1280px) {
-  .nasa-photo {
-    display: block;
-  }
-
-  .nasa-photo img {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-}
-
-.home {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-link {
-  font-size: 20px;
-  background: rgba(255,20,147,0.1);
-  display: inline-block;
-  padding: 10% 5%;
-  color: #ffffff;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: 0.3s ease all;
-}
-
-.home-link:hover {
-  background: rgba(255,255,255,0.2);
-}
-
-.content{
-  align-items: center;
-  justify-content: center;  
-  border: 2px solid #ffffff;
-  padding:  5px 15px;
-  display: inline-flex;
-  border-radius: 20px;
+#photo-header{
+  font-family: 'Trispace', sans-serif;
+  color: #fff;
+  margin-top: 15px;
 }
 
 .heart{
@@ -117,10 +74,8 @@ font-family: 'Trispace', sans-serif;
   background: rgba(255,20,147,0.5);
 }
 
-#date-picker{
-  border-radius: 10px;
-  font-size: 15px;
+#explaination-photo{
+  color: white;
+  margin-top: 15px;
   font-family: 'Trispace', sans-serif;
-  margin-left: 15px;
-
 }
