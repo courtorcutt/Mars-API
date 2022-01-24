@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
 
-import Photo from "./Photo.js";
+import Photo from "./photos.js";
 
 class PhotoContainer extends Component {
   render() {

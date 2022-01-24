@@ -5,7 +5,7 @@ import { Header, Button } from "semantic-ui-react";
 import moment from "moment";
 
 // the NavBar will import the date button and datepicker components
-import DateInput from "./DateInput.js";
+import DateInput from "./dateentered.js";
 
 export default class Navbar extends Component {
   render() {

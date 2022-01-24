@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Card } from "semantic-ui-react";
 
-import FavoriteCard from "./FavoriteCard.js";
+import FavoriteCard from "./favouritescontain.js";
 
 class FavoritesContainer extends Component {
   state = {
