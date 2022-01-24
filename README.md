@@ -3,7 +3,10 @@
 https://nasa-api-project-react.herokuapp.com/
 
 SMOKE TEST:
-Uploading Screen Recording 2022-01-24 at 6.55.37 PM.mov…
+
+https://user-images.githubusercontent.com/72311187/150846301-c82028cd-e0c8-40b9-a1a2-8bd160e95da9.mov
+
+
 
 <img width="1366" alt="Screen Shot 2022-01-20 at 4 19 40 PM" src="https://user-images.githubusercontent.com/72311187/150378703-d3d9df97-9c52-424a-a35f-bc7744c8ed26.png">
 
