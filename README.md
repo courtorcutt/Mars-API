@@ -4,7 +4,11 @@ Heroku App: https://nasa-api-project-react.herokuapp.com/
 
 
 Smoke Test Video:
-https://user-images.githubusercontent.com/72311187/150871864-a876ecef-3fea-43db-a032-178400859a0c.mov
+
+
+https://user-images.githubusercontent.com/72311187/150872018-65d02624-f4c1-4ae1-8526-99020a561a92.mov
+
+
 
 
 ## Getting Started with Create React App
