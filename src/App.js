@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import './App.css';
 // import all the different pages 
-import Navbar from "./pages/navbar.js";
-import PhotoContainer from "./pages/photocontain.js";
-import FavoritesContainer from "./pages/favouritescontain.js";
+import Navbar from "./Pages/navbar.js";
+import PhotoContainer from "./Pages/photocontain.js";
+import FavoritesContainer from "./Pages/favouritescontain.js";
 
 // DatePicker requires moment.js
 // used in NavBar below date={this.state.date}
