@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Header, Button } from "semantic-ui-react";
+import { Header, Button } from "semantic-ui-react";
 
 // DatePicker requires moment.js
 import moment from "moment";

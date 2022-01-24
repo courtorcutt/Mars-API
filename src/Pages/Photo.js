@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment, Image, Header, Icon, Menu } from "semantic-ui-react";
+import { Image, Header, Icon } from "semantic-ui-react";
 
 const Photo = props => (
   <React.Fragment>
