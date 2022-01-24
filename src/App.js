@@ -96,7 +96,6 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{ backgroundImage: "url(/telescope.jpg)" }}>
         <Navbar
           viewFavorites={this.viewFavorites}
           viewingFavorites={this.state.viewingFavorites}
@@ -121,7 +120,6 @@ class App extends Component {
             removeFromFavorites={this.removeFromFavorites}
           />
         )}
-      </div>
     );
   }
 }
