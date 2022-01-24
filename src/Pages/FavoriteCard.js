@@ -2,12 +2,16 @@ import React from "react";
 import { Card, Image, Button } from "semantic-ui-react";
 
 const FavoriteCard = props => (
-  <Card>
+  <Card id="card-style">
     <Card.Content>
-      <Image src={props.photo.hdurl} />
-      <Card.Header>{props.photo.title}</Card.Header>
-      <Card.Meta>{props.photo.date}</Card.Meta>
-    </Card.Content>
+        <div className="card-size">
+            <Image src={props.photo.hdurl} />
+            <div id="card-white-style">
+              <Card.Header>{props.photo.title}</Card.Header>
+              <Card.Header>{props.photo.date}</Card.Header>
+            </div>
+        </div>
+      </Card.Content>
     <Card.Content extra>
       <div className="ui two buttons">
         <Button
@@ -22,7 +26,7 @@ const FavoriteCard = props => (
           color="red"
           onClick={() => props.removeFromFavorites(props.photo)}
         >
-          Remove from Favorites
+          Remove
         </Button>
       </div>
     </Card.Content>

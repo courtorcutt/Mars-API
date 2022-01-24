@@ -24,7 +24,7 @@ export default class Navbar extends Component {
                 handleChange={this.props.handleChange}
               />
               {this.props.viewingFavorites ? (
-                <Button>Sort Favorites by Date</Button>
+                <Button id="favourite-button">Sort Favorites by Date</Button>
               ) : (
                 <Button id="favourite-button" onClick={this.props.viewFavorites}>View Favorites</Button>
               )}
